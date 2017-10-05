@@ -93,7 +93,7 @@ class Navigation
 
     private function buildSectionSubmenu($section)
     {
-        [$items, $title] = collect($section)->extract('items', 'title');
+        list($items, $title) = collect($section)->extract('items', 'title');
 
         $submenu = Menu::build($items, function ($menu, $item) use ($title) {
             $menu->link(url($item['slug']), $item['title']);
