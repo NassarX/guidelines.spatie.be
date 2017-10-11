@@ -174,6 +174,7 @@ Key: `register`
             'enum' => ['path' => 'src/Models/Enums', 'generate' => true],
             'resource' => ['path' => 'src/Models/Transformers', 'generate' => false],
             'controller' => ['path' => 'src/Http/Controllers', 'generate' => true],
+            'facades' => ['path' => 'src/Http/Facades', 'generate' => true],
             'filter' => ['path' => 'src/Http/Middleware', 'generate' => false],
             'request' => ['path' => 'src/Http/Requests', 'generate' => true],
             'provider' => ['path' => 'src/Providers', 'generate' => false],
